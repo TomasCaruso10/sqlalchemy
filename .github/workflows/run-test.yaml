@@ -1,6 +1,7 @@
 name: Run tests
 
 on:
+  workflow_dispatch:
   # run on push in main or rel_* branches excluding changes are only on doc or example folders
   push:
     branches:
